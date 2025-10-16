@@ -1,7 +1,7 @@
 {
   "name": "pricehunter-bot",
   "version": "1.0.0",
-  "description": "Bot Telegram per trovare errori di prezzo PlayStation",
+  "description": "Bot Telegram multi-sito con Gemini API per monitorare prezzi PS5",
   "main": "bot.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,10 @@
     "axios": "^1.6.0",
     "cheerio": "^1.0.0",
     "node-cron": "^3.0.2",
-    "node-telegram-bot-api": "^0.61.0"
+    "node-telegram-bot-api": "^0.61.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
