@@ -1,7 +1,6 @@
 {
   "name": "pricehunter-bot",
   "version": "1.0.0",
-  "description": "Bot Telegram per trovare errori di prezzo PlayStation",
   "main": "bot.js",
   "type": "module",
   "scripts": {
